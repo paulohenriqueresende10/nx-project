@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-project/ui": ["ui/src/index.ts"],
+      "@nx-project/ui/server": ["ui/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
